@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibersap xmlns="urn:hibersap:hibersap-configuration:1.0">
+	<session-manager name="A12">
+		<context>org.hibersap.execution.jco.JCoContext</context>
+		<properties>
+			<property name="jco.client.client" value="jco_client" />
+			<property name="jco.client.user" value="jco_user" />
+			<property name="jco.client.passwd" value="jco_passwd" />
+			<property name="jco.client.lang" value="jco_sap" />
+			<property name="jco.client.ashost" value="jco.ashost" />
+			<property name="jco.client.sysnr" value="jso.sysnr" />
+			<property name="jco.destination.pool_capacity" value="pool_capacity" />
+		</properties>
+		<annotated-classes>
+			<annotated-class>com.dunkcoder.example.SystemInfo</annotated-class>
+			<annotated-class>com.dunkcoder.example.CompanyCodeGetList</annotated-class>
+		</annotated-classes>
+	</session-manager>
+	<session-manager name="A13">
+		<context>org.hibersap.execution.jco.JCoContext</context>
+		<properties>
+			<property name="jco.client.client" value="jco_client" />
+			<property name="jco.client.user" value="jco_user" />
+			<property name="jco.client.passwd" value="jco_password" />
+			<property name="jco.client.lang" value="jco_sap" />
+			<property name="jco.client.ashost" value="jco.ashost" />
+			<property name="jco.client.sysnr" value="jso.sysnr" />
+			<property name="jco.destination.pool_capacity" value="pool_capacity" />
+		</properties>
+		<annotated-classes>
+			<annotated-class>com.dunkcoder.example.StfcConnection</annotated-class>
+			<annotated-class>com.dunkcoder.example.SystemInfo</annotated-class>
+			<annotated-class>com.dunkcoder.example.CompanyCodeGetList</annotated-class>
+		</annotated-classes>
+	</session-manager>
+</hibersap>
