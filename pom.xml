@@ -20,6 +20,7 @@
 		<junit.version>4.11</junit.version>
 		<slf4j-log4j12.version>1.7.7</slf4j-log4j12.version>
 		<maven-bundle-plugin.version>2.5.3</maven-bundle-plugin.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>
