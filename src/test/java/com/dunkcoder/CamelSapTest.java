@@ -15,12 +15,12 @@ public class CamelSapTest extends CamelSpringTestSupport {
 	@Test
 	public void testSessionManagerAndCamelConfig() {
 
-		resolveMandatoryEndpoint("hibersap:A12");
-		resolveMandatoryEndpoint("hibersap:A13");
-		resolveMandatoryEndpoint("hibersap:A14");
+		resolveMandatoryEndpoint("camelsap:A12");
+		resolveMandatoryEndpoint("camelsap:A13");
+		resolveMandatoryEndpoint("camelsap:A14");
 
 		try {
-			resolveMandatoryEndpoint("hibersap:A15");
+			resolveMandatoryEndpoint("camelsap:A15");
 			fail("there is no session manager named A15");
 		} catch (Exception ex) {
 

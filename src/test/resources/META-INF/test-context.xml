@@ -34,7 +34,7 @@
 		</bean>
 		<bean class="org.hibersap.configuration.xml.Property">
 			<constructor-arg name="name" value="jco.destination.pool_capacity" />
-			<constructor-arg name="value" value="pol_capacity" />
+			<constructor-arg name="value" value="pool_capacity" />
 		</bean>
 	</util:set>
 
@@ -54,17 +54,17 @@
 	<camel:camelContext xmlns="http://camel.apache.org/schema/spring" id="test">
 		<camel:route>
 			<camel:from uri="direct:A12" />
-			<camel:to uri="hibersap:A12" />
+			<camel:to uri="camelsap:A12" />
 			<camel:to uri="log:fromsap?level=info" />
 		</camel:route>
 		<camel:route>
 			<camel:from uri="direct:A13" />
-			<camel:to uri="hibersap:A13" />
+			<camel:to uri="camelsap:A13" />
 			<camel:to uri="mock:result" />
 		</camel:route>
 		<camel:route>
 			<camel:from uri="direct:A14" />
-			<camel:to uri="hibersap:A14?annotatedClasses=#examples" />
+			<camel:to uri="camelsap:A14?annotatedClasses=#examples" />
 			<camel:to uri="mock:result" />
 		</camel:route>
 	</camel:camelContext>

@@ -6,9 +6,9 @@
 			<property name="jco.client.client" value="jco_client" />
 			<property name="jco.client.user" value="jco_user" />
 			<property name="jco.client.passwd" value="jco_passwd" />
-			<property name="jco.client.lang" value="jco_sap" />
-			<property name="jco.client.ashost" value="jco.ashost" />
-			<property name="jco.client.sysnr" value="jso.sysnr" />
+			<property name="jco.client.lang" value="jco_lang" />
+			<property name="jco.client.ashost" value="jco_ashost" />
+			<property name="jco.client.sysnr" value="jco_sysnr" />
 			<property name="jco.destination.pool_capacity" value="pool_capacity" />
 		</properties>
 		<annotated-classes>
@@ -21,10 +21,10 @@
 		<properties>
 			<property name="jco.client.client" value="jco_client" />
 			<property name="jco.client.user" value="jco_user" />
-			<property name="jco.client.passwd" value="jco_password" />
-			<property name="jco.client.lang" value="jco_sap" />
-			<property name="jco.client.ashost" value="jco.ashost" />
-			<property name="jco.client.sysnr" value="jso.sysnr" />
+			<property name="jco.client.passwd" value="jco_passwd" />
+			<property name="jco.client.lang" value="jco_lang" />
+			<property name="jco.client.ashost" value="jco_ashost" />
+			<property name="jco.client.sysnr" value="jco_sysnr" />
 			<property name="jco.destination.pool_capacity" value="pool_capacity" />
 		</properties>
 		<annotated-classes>
